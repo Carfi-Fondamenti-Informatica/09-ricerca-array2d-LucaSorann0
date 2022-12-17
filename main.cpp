@@ -1,5 +1,21 @@
 #include <iostream>
+#include <string.h>
+#include "lib.h"
+using namespace std;
 
 int main(){
-  return 0;
+  char a[10][20], b[20];
+for (int i=0; i<10; i++) {
+cin >> a[i];
+}
+cin >> b[0];
+for(int e=0; e<10; e++) {
+a[e][20]=='\0';
+}
+if ( ver (a, b) == -1) {
+cout << "non presente";
+} else {
+cout << ver(a, b);
+}
+return 0;
 }
