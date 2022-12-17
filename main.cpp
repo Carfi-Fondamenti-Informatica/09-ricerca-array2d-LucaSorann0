@@ -1,7 +1,7 @@
 #include <iostream>
-#include <string.h>
-#include "lib.h"
 using namespace std;
+#include "string.h"
+#include "lib.h"
 
 int main(){
   char a[10][20], b[20];
