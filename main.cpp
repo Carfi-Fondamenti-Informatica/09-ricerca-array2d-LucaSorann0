@@ -4,7 +4,7 @@ using namespace std;
 #include "lib.h"
 
 int main(){
-const char a[10][20], b[20];
+char a[10][20], b[20];
 for (int i=0; i<10; i++) {
 cin >> a[i];
 }
