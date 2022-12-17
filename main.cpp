@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include "string.h"
+#include <string.h>
 #include "lib.h"
 
 int main(){
